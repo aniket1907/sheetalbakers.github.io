@@ -1,124 +1,165 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Sheetal Bakers</title>
+
+    <meta name="description" content="Clean & Minimal Website for a Bakery Shop.">
+    <meta name="keywords" content="Bakery, clean, minimal, blog, template, shop website">
+    <meta name="author" content="nK">
+
+	<meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1, initial-scale=1">
 	
-	<title>Sheetalbakers</title>
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;500&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Rouge+Script:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	
+	
+	<link rel="stylesheet" href="fonts/font-awesome.min.css">    
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+  	
 </head>
 <body>
-
-<section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero">
-            <h1>Sheetal Bakers</h1>
-          </a>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger">
-            <div class="bar"></div>
-          </div>
-          <ul>
-            <li><a href="#" data-after="Home">Home</a></li>
-            <li><a href="#About" data-after="Service">About</a></li>
-            <li><a href="#Order" data-after="Projects">Products</a></li>
-            <li><a href="#Contact" data-after="About">Contact</a></li>
+   
+   <header class="header-bg">
+      <nav class="navbar navbar-fixed-top" role="navigation">
+         <div class="container">
+             <div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+      </button>
+              <div class="logo"><a class="navbar-brand" href="#">Sheetal Bakers</a></div>
+              </div>
+         <div class="collapse navbar-collapse" id="navbar-collapse-1">         
+             <ul class="nk-navbar navbar-nav navbar-left">
+              <li class="web-links"><a class="nav-link" href="#about">About</a></li>
+              <li class="web-links"><a class="nav-link" href="#menu">Menu</a></li>
+              <li class="web-links"><a class="nav-link" href="#receipe">Receipe</a></li>
+              <li class="web-links"><a class="nav-link" href="#reservations">Reservations</a></li>
           </ul>
-        </div>
+          <ul class="nk-navbar navbar-right">
+              <li class="social-links"><a href="https://www.twitter.com"><i class="fa fa-twitter fa-1x"></i></a></li>
+              <li class="social-links"><a href="https://www.facebook.com"><i class="fa fa-facebook fa-1x"></i></a></li>
+              <li class="social-links"><a href="https://www.instagram.com"><i class="fa fa-instagram fa-1x"></i></a></li>
+          </ul>
+         </div>   
       </div>
-    </div>
-  </section>
-	
-
-	<div class="content">
-		<h1>Welcome to Sheetal Bakers</h1>
-		<br>
-		<h2>House for cake lovers</h>
-			<br><br>
-		<hr>
-		<button type="" class="bt">Click to order</button>
-		
-		<button type="">Read more</button>
-	</div>
-
-	
-<!-- About Section -->
-
-	<section id="About">
-		<div class="about">
-
-		<div class="text">
-          
-            <h2>About us</h2><br>
-            <hr>
-          	  <img src="Images/Sb.jpg" alt="">
-            <p >
-            	Sheetal Bakers (India) Ltd (SB) was set up in 2015 by Mrs.Sheetal Joshi.It is situated at Samparshan park,Navi mumai(India). It was set up under the Colombo plan with the help of New Mumbai Bakers(NMB).Sheetal Bakery manages a selection of goods asked by its clients and works to maintain its supply in a recent and comprehensive state. Provision shops play an integral part in our lives. People turn to places like this to buy pastries, flour-based food: cakes, sweet desserts, loaves of breads and cookies.
-            </p>
+     </nav>
+      <div class=" col-xs-12 header-content">
+       <p class="main-text">Welcome to Sheetal Bakers</p>
+       <hr>
+       <p class="disc-text">We’re bringing you fresh ingredients every<br>day in ways you can’t resist.</p>  
+          <button class="menu-btn"><a href="#menu">our Menu</a></button>
+       </div>
+   </header>  
+    
+    <section id="about">
+        <div class="row">
+           <div class="container">
+                 <div class="about-content col-md-5">
+                <h2 class="title text-center">Who are we</h2>
+                <p class="tagline text-center">we create delicious memories</p>
+                <p class="para text-center">Sheetal Bakers (India) Ltd (SB) was set up in 2015 by
+                     Mrs.Sheetal Joshi.It is situated at Samparshan park,Navi mumai(India).
+                      It was set up under the Colombo plan with the help of New Mumbai Bakers(NMB).
+                      Sheetal Bakery manages a selection of goods asked by its clients and works to maintain
+                       its supply in a recent and comprehensive state. Provision shops play an integral part in our lives.
+                        People turn to places like this to buy pastries, flour-based food: cakes, sweet desserts, loaves of 
+                        breads and cookies.</p>
+                <h3 class="chef text-center">Chef Cook</h3>
+                <p class="cook text-center"><span class="fname">Arun</span><img src="images/cook.png" alt=""> <span class="lname">Sapre</span></p>
+                <p class="quote text-center">Unique creations for unique<br>
+                occasions.</p>
             </div>
-
+            <div class="col-md-6">
+                <img class="img-responsive about-img" src="images/bakery_stuff.jpg" alt="">
+            </div>
+           </div>
+          
         </div>
-	</section>
-
-	
-<!-- Order section -->
-
-	<section id="Order">
-		<div class="order">
-			<div class="type">
-				<h2>Our products</h2><br>
-				<hr>
-				<div class="divide">
-					<div class="buiscuit"></div>
-					<div class="Breads"></div>
-					<div class="cakes"></div>
-					<div class="pestries"></div>
-        		</div>	
-        	</div>
-
+    </section>
+    <section id="menu">
+        <div class="col-xs-12">
+            <p class="title text-center">The Tasty Jibarito sandwich</p>
+            <p class="tagline text-center">the thing which we are famous for, best sandwich you’ve ever tasted!</p>
         </div>
-	</section>
-
-<!-- Contact Section -->
-
-	<section id="Contact">
-		<div class="contact">
-			  <div class="contact-form">
-    				<h1>Contact Us</h1>
-    					<div class="txtb">
-      							<label>Full Name :</label>
-     							 <input type="text" name="" value="" placeholder="Enter Your Name">
-   						 </div>
-						<div class="txtb">
-      							<label>Email :</label>
-      							<input type="email" name="" value="" placeholder="Enter Your Email">
-    					</div>
-    					<div class="txtb">
-      							<label>Phone Number :</label>
-      							<input type="text" name="" value="" placeholder="Enter Your Phone Number">
-    					</div>
-						<div class="txtb">
-      							<label>Message :</label>
-      							<textarea></textarea>
-      					</div>
-    					<a class="btn">Send</a>
-  				</div>
-
-        </div>
-	</section>
-
-
-<!-- Javascript -->
-
-<script src="./app.js"></script>
-
-
-</body>
+         <div class="row">
+             <div class="container">
+                 <div class="col-md-3 col-xs-12 menu-dishes">
+                     <div class="menu-dish text-center"><img src="images/menu-img-1.png" alt="">
+                             <p class="dish-heading">Toast</p>
+                                 <p class="dish-para">Crunchy and spicy toasts .</p>
+                         </div>
+                          <div class="menu-dish text-center"><img src="images/mages/menu-img-2.png" alt="">
+                             <p class="dish-heading">Egglet</p>
+                                 <p class="dish-para">Fresh and yummy egglet for you.</p>
+                         </div>
+                          <div class="menu-dish text-center"><img src="images/menu-img-3.png" alt="">
+                             <p class="dish-heading">Sweets</p>
+                                 <p class="dish-para"> Some sweets and namkeen products </p> 
+                         </div>
+                 </div>
+                 <div class="col-md-5 col-xs-12 menu-img col-md-offset-1 text-center">
+                 <img class="hidden-xs hidden-sm" src="images/menu-img_bg.jpg" alt="" width="750px" />
+                  </div>      
+                     
+             </div>
+         </div>
+     </section>
+     <section id="receipe">
+         <div class="row">
+             <div class="container">
+                 <div class="col-xs-12 col-md-6 hidden-xs hidden-sm hidden-md news-img">
+                     <img class="" src="images/news-placeholder-img.jpg" alt="">
+                 </div>
+                 <div class="col-xs-8 col-md-3 col-xs-offset-1 news-content">
+                     <h2 class="title">Tasty pancakes</h2>
+                <p class="tagline">Seasonal favourite</p>
+                     <p class="para">The Best Fluffy Pancakes you will fall in love with.
+                          Always here for you... Nutritional,Healty,Tasty and yummy.</p>
+                 </div>
+                 <div class="col-md-1 text-center"> <img class="news-box" src="images/news-placeholder-box.jpg" alt=""> </div>
+             </div>
+         </div>
+     </section>
+     <section id="reservations">
+         <div class="row">
+             <div class="col-md-6 col-xs-12">
+                 <div class="reserv-details text-center"><p class="heading1">Breakfast</p>
+                 <p class="para1">7am Breakfast? Dont worry we’re here!</p></div>
+                 <div class="reserv-details text-center"><p class="heading2">Full breakfast</p><p class="para2">Bread,rolled egg,cofee/tea</p><p class="price">₹150/-</p></div>
+                 <div class="reserv-details text-center"><p class="heading2">Toast & Jam</p>
+                 <p class="para2">Tasty and healthy</p><p class="price">₹70/-</p></div>
+                 <div class="reserv-details text-center"><p class="heading2">Muffins</p><p class="para2">Tasty and delicious</p>
+                 <p class="price">₹100/-</p></div>
+             </div>
+         <div class="bakery-post col-md-4 col-xs-10">
+             <p class="title text-center">Your morning
+                            Escape with Flair</p>
+                 <p class="para text-center">Hello Good morning,<br/>
+                    Have a nice day...<br/> 
+                    we are here to give you health and tasty breakfast<br>
+             <!-- <button class="read-btn"><a href="">READ</a></button></p> -->
+         </div>
+         </div>
+     </section>
+     
+    
+     <!-- <footer id="contact">
+                <ul class="nk-navbar fnav">
+                    <li class="flinks col-xs-12 col-md-2"><a href="">our menu</a></li>
+                    <li class="flinks col-xs-12 col-md-2"><a href="">gallery</a></li>
+                    <li class="flinks col-xs-12 col-md-2"><a href="">culture</a></li>
+                    <li class="flinks col-xs-12 col-md-2"><a href="">events</a></li>
+                    <li class="flinks col-xs-12 col-md-2"><a href="">catering</a></li>
+                    <li class="flinks col-xs-12 col-md-2"><a href="">visit us</a></li>
+                </ul>
+     </footer> -->
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+     
+      </body>
 </html>
